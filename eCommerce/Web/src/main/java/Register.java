@@ -46,9 +46,9 @@ public class Register extends HttpServlet {
 				 HttpSession session=request.getSession();
 				   session.setAttribute("ex", a);
 				   
-				   response.sendRedirect("home.jsp");
+				   response.sendRedirect("index.html");
 			} else {
-				pw.println("<html><body><h2> Registration Failed</h2></body></html>");
+				pw.println("<html><body><h2 id= > Registration Failed</h2></body></html>");
 			}
 		} catch (Exception ex) {
 			pw.println(ex);

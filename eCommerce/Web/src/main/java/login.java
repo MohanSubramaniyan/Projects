@@ -31,12 +31,12 @@ public class login extends HttpServlet {
 				   HttpSession session=request.getSession();
 				   session.setAttribute("ex", a);
 				   
-				   response.sendRedirect("home.jsp");
+				   response.sendRedirect("index.html");
 //				pw.println("hello-------");
 				
 			}
 			else {
-				pw.println("word");
+				pw.println("<html><body><h2>word</h2></body></html>");
 			}
 		}
 		catch(Exception ei) {

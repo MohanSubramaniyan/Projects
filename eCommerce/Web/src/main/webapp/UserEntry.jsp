@@ -13,57 +13,64 @@
 
     <style>
         body {
-            background-color: #333;
-            color: #fff;
+            background-color: black; /* Changed background to white */
+            color: #000; /* Changed text color to black */
             font-family: 'Poppins', sans-serif;
             text-align: center;
         }
 
         .card {
-            background-color: #444;
+            background-color: #007BFF; /* Changed card background to blue */
+            color: #fff;
             border: none;
         }
 
         .card-header {
-            background-color: #007BFF;
+            /* Changed card header background to darker blue */
             color: #fff;
             border: none;
-            padding:10px;
+            
+            
         }
 
         .card-title {
             font-size: 28px;
             font-family: 'Poppins', sans-serif;
+            background-color:black;
+            padding:10px;
         }
 
         .form-group {
             margin-bottom: 10px;
+            margin-top:5px;
         }
 
         label {
-            color: #fff;
+            color: #000; /* Changed label text color to black */
             font-weight: bold;
         }
 
         .form-control {
-            background-color: #555;
-            color: #fff;
+            background-color: #eee; /* Changed form control background to light gray */
+            color: #000; /* Changed form control text color to black */
             border: none;
         }
 
         .btn-primary {
-            background-color: #007BFF;
+            background-color: black;
             border: none;
         }
 
         .btn-primary:hover {
-            background-color: #0056b3;
+            background-color: grey;
         }
 
         #login {
             margin-top: 140px;
-            border-radious:5%;
+            border-radius: 5%; /* Corrected the typo from 'border-radious' to 'border-radius' */
         }
+
+
         #reg{
         margin-top: 80px}
     </style>
