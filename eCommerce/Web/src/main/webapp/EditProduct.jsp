@@ -75,7 +75,7 @@ label {
 }
 
 #reg {
-	margin-top: 80px
+	margin-top: 50px
 }
 </style>
 </head>
@@ -113,6 +113,11 @@ label {
 									type="text" class="form-control" id="password"
 									name="image" required>
 							</div>
+							<div class="form-group">
+								<label for="signin_password"> Category</label> <input
+									type="text" class="form-control" id="password"
+									name="category" required>
+							</div>
 							<button type="submit" class="btn btn-primary btn-block">Confirm</button>
 						</div>
 					</div>
@@ -121,7 +126,7 @@ label {
 
 			<!-- Remove Form -->
 			<div class="col-md-4" id="login">
-				<form action="addprod.java" method="post">
+				<form action="removepro" method="post">
 					<div class="card">
 						<div class="card-header">
 							<h2 class="card-title">Remove Product</h2>

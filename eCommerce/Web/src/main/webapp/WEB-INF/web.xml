@@ -34,6 +34,18 @@
   	<description></description>
   	<servlet-class>addproduct</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>removepro</servlet-name>
+  	<display-name>removepro</display-name>
+  	<description></description>
+  	<servlet-class>removepro</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>show</servlet-name>
+  	<display-name>show</display-name>
+  	<description></description>
+  	<servlet-class>show</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>Register</servlet-name>
   	<url-pattern>/Register</url-pattern>
@@ -53,5 +65,13 @@
   <servlet-mapping>
   	<servlet-name>addproduct</servlet-name>
   	<url-pattern>/addproduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>removepro</servlet-name>
+  	<url-pattern>/removepro</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>show</servlet-name>
+  	<url-pattern>/show</url-pattern>
   </servlet-mapping>
 </web-app>
